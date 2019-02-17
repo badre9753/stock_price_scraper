@@ -12,7 +12,7 @@ MAX_ATTEMPTS = 3
 
 def get_stock_prices(tickers, startDate, endDate):
     """
-    Returns a Pandas Panel containing the daily HLOC and adjusted close for TICKER from STARTDATE to ENDDATE.
+    Returns a Pandas Panel containing the daily HLOC and adjusted close for TICKER from STARTDATE to ENDDATE. Note: tickers argument is a list, e.g., should pass in ["AAPL"] for tickers.
     The items of the panel are:
     * "Open"
     * "High"
